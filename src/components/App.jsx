@@ -1,5 +1,9 @@
+import { FeedbackForm } from "./FeedbackForm/FeedbackForm";
+
 export const App = () => {
   return (
-    <div></div>
+    <div>
+      <FeedbackForm />
+    </div>
   );
 };

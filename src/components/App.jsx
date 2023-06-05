@@ -1,9 +1,11 @@
-import { FeedbackForm } from "./FeedbackForm/FeedbackForm";
+
+
+import {FeedbackForm} from './FeedbackForm/FeedbackForm.jsx' ;
 
 export const App = () => {
   return (
     <div>
-      <FeedbackForm />
+      <FeedbackForm  />
     </div>
   );
 };

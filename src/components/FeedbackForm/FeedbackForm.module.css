@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../../components/background.jpg');
+    background-size: cover;
+  }
+  
+.container {
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 24px;
+    width: 480px;
+    border-radius: 8px;
+    background-color: #ECDEC9;
+    border: 2px solid #3B3936;
+
+  }
+  ul, li {
+    margin: 0;
+    padding: 0;   
+    list-style: none;
+  }
+  

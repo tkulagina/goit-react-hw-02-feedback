@@ -1,0 +1,18 @@
+.option {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #C4B49E;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;  
+}
+

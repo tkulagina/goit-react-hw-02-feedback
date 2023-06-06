@@ -5,6 +5,10 @@ import {Statistics} from '../Statistics/Statistics.jsx';
 import {Section} from '../Section/Section.jsx';
 import {Notification} from '../Notification/Notification.jsx';
 
+import css from './FeedbackForm.module.css'
+
+
+
 const OPTIONS = ['good', 'neutral', 'bad']
 
 export class FeedbackForm extends Component {
@@ -34,8 +38,8 @@ export class FeedbackForm extends Component {
     render () {
         const { good, neutral, bad } = this.state;
         return (
-        <div>
-             <div>
+        <div >
+             <div className={css.container}>
           <Section title="Please leave feedback">
             <FeedbackOptions
               options={OPTIONS}

@@ -8,9 +8,6 @@ import {Notification} from '../Notification/Notification.jsx';
 import css from './FeedbackForm.module.css'
 
 
-
-const OPTIONS = ['good', 'neutral', 'bad']
-
 export class FeedbackForm extends Component {
     state = {
         good: 0,
@@ -37,12 +34,13 @@ export class FeedbackForm extends Component {
 
     render () {
         const { good, neutral, bad } = this.state;
+        const options = Object.keys(this.state);
         return (
         <div >
              <div className={css.container}>
           <Section title="Please leave feedback">
-            <FeedbackOptions
-              options={OPTIONS}
+            <FeedbackOptions              
+              options={options}
               onLeaveFeedback={this.changeState}
             />
           </Section>
